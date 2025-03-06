@@ -1,0 +1,40 @@
+{
+  "name": "my-utils",
+  "version": "1.0.0",
+  "description": "A simple npm package built with Vite and TypeScript",
+  "main": "./dist/my-utils.umd.js",
+  "module": "./dist/my-utils.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [
+    "vite",
+    "typescript",
+    "npm"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "sass": "^1.83.0",
+    "ulid": "^2.3.0",
+    "uuid": "^11.1.0"
+  },
+  "bundleDependencies": [
+    "sass",
+    "ulid",
+    "uuid",
+    "lodash-es",
+    "lodash"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  }
+}
